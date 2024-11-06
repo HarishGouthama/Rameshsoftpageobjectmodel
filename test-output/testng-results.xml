@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="13" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20316" started-at="2024-10-30T01:29:07Z" finished-at="2024-10-30T01:29:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20316" started-at="2024-10-30T01:29:07Z" finished-at="2024-10-30T01:29:28Z">
+      <class name="com.rameshsoft.automation.appln.businessscripts.GmailPomTest">
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.GmailPomTest@eec5a4a]" name="beforeTCExecution" is-config="true" duration-ms="1" started-at="2024-10-30T01:29:11Z" finished-at="2024-10-30T01:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.businessscripts.GmailPomTest.GmailPomTest() throws com.rameshsoft.automation.customisedexceptions.FrameworkException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="GmailPomTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.GmailPomTest@eec5a4a]" name="GmailPomTest" duration-ms="14440" started-at="2024-10-30T01:29:11Z" finished-at="2024-10-30T01:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailPomTest -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.GmailPomTest@eec5a4a]" name="afterTCExecution" is-config="true" duration-ms="35" started-at="2024-10-30T01:29:25Z" finished-at="2024-10-30T01:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GmailPomTest status=SUCCESS method=GmailPomTest.GmailPomTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.GmailPomTest@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.rameshsoft.automation.appln.businessscripts.GmailPomTest -->
+      <class name="com.rameshsoft.automation.appln.businessscripts.InstTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="openBrowser" is-config="true" duration-ms="2076" started-at="2024-10-30T01:29:05Z" finished-at="2024-10-30T01:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initReports()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="initReports" is-config="true" duration-ms="131" started-at="2024-10-30T01:29:08Z" finished-at="2024-10-30T01:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="beforeTCExecution" is-config="true" duration-ms="4" started-at="2024-10-30T01:29:08Z" finished-at="2024-10-30T01:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.businessscripts.InstTest.instTest() throws java.io.IOException,com.rameshsoft.automation.customisedexceptions.FrameworkException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="instTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="instTest" duration-ms="3035" started-at="2024-10-30T01:29:08Z" finished-at="2024-10-30T01:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instTest -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="afterTCExecution" is-config="true" duration-ms="369" started-at="2024-10-30T01:29:11Z" finished-at="2024-10-30T01:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=instTest status=SUCCESS method=InstTest.instTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.InstTest@210366b4]" name="generateReports" is-config="true" duration-ms="19" started-at="2024-10-30T01:29:28Z" finished-at="2024-10-30T01:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.rameshsoft.automation.appln.businessscripts.InstTest -->
+      <class name="com.rameshsoft.automation.appln.businessscripts.FbTest">
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FbTest@6ddf90b0]" name="beforeTCExecution" is-config="true" duration-ms="1" started-at="2024-10-30T01:29:27Z" finished-at="2024-10-30T01:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.businessscripts.FbTest.FbTest() throws java.io.IOException,com.rameshsoft.automation.customisedexceptions.FrameworkException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="FbTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FbTest@6ddf90b0]" name="FbTest" duration-ms="843" started-at="2024-10-30T01:29:27Z" finished-at="2024-10-30T01:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbTest -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FbTest@6ddf90b0]" name="afterTCExecution" is-config="true" duration-ms="26" started-at="2024-10-30T01:29:28Z" finished-at="2024-10-30T01:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FbTest status=SUCCESS method=FbTest.FbTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FbTest@6ddf90b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.rameshsoft.automation.appln.businessscripts.FbTest -->
+      <class name="com.rameshsoft.automation.appln.businessscripts.FpTest">
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FpTest@2b2948e2]" name="beforeTCExecution" is-config="true" duration-ms="1" started-at="2024-10-30T01:29:26Z" finished-at="2024-10-30T01:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.businessscripts.FpTest.FpTest() throws java.io.IOException,com.rameshsoft.automation.customisedexceptions.FrameworkException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="FpTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FpTest@2b2948e2]" name="FpTest" duration-ms="1360" started-at="2024-10-30T01:29:26Z" finished-at="2024-10-30T01:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FpTest -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FpTest@2b2948e2]" name="afterTCExecution" is-config="true" duration-ms="30" started-at="2024-10-30T01:29:27Z" finished-at="2024-10-30T01:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FpTest status=SUCCESS method=FpTest.FpTest()[pri:0, instance:com.rameshsoft.automation.appln.businessscripts.FpTest@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.rameshsoft.automation.appln.businessscripts.FpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

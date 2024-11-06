@@ -1,0 +1,9 @@
+{
+  "name"        : "RameshSoft",
+  "Subject"     : "Java",
+  "Practice"    : "Job",
+  "Job"         : "Solution",
+  "un_id"       : "identifierId",
+  "nxt_id"      : "identifierNext",
+  "pwd_name"    : "password"
+}

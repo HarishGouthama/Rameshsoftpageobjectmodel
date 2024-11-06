@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <listeners>
+<listener class-name="com.rameshsoft.automation.listeners.TCActivity"></listener>
+</listeners> -->
+
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="com.rameshsoft.automation.appln.businessscripts.InstTest"/> 
+      <!-- <class name="com.rameshsoft.automation.appln.businessscripts.GmailTest"/> -->
+      <class name="com.rameshsoft.automation.appln.businessscripts.GmailPomTest"/>
+      <class name="com.rameshsoft.automation.appln.businessscripts.FpTest"/>
+      <class name="com.rameshsoft.automation.appln.businessscripts.FbTest"/>
+     <!--  <class name="com.rameshsoft.automation.appln.businessscripts.PopupTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
